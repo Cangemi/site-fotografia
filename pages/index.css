@@ -1,5 +1,54 @@
+
+
 #Cabecalho{
     background-color: #040404;
     color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+.Titulo1{
+    font-family:'Chau Philomene One', sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 48px;
 }
 
+.Divisor{
+    text-align: center;
+    font-weight:900;
+    font-style: italic;
+    font-size: 20px;
+    color:#37F2C0;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    
+}
+
+.Titulo2{
+    font-family:'Chau Philomene One', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color:#37F2C0;
+    
+}
+
+.BtnHead{
+    text-align: center;
+}
+.BtnHead2{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #37F2C0 ;
+    color: #040404;
+    border: 0;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 0px 0px 50px 0px #37F2C0;
+    
+}
