@@ -36,9 +36,10 @@ function Home() {
                         </div>
                         <Image class="col" src="/header.png" width="620" height="480" />
                     </div>
-
                 </Container>
+                    <div className="divisorForma"></div>
             </Jumbotron>
+
         </div>
     )
 }
