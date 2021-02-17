@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import Image from 'next/image';
+
 
 import Navbar from '../components/Navbar';
 
@@ -32,9 +34,7 @@ function Home() {
                              <button className="BtnHead2" href="/">Orçamento</button>
                             </div>
                         </div>
-                        <div class="col" >
-                            <img src="/header.png" width="620" height="480" />
-                        </div>
+                        <Image class="col" src="/header.png" width="620" height="480" />
                     </div>
 
                 </Container>
