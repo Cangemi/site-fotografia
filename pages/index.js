@@ -44,7 +44,7 @@ function Home() {
                         <Image class="col" src="/quemsoueu.png" width="580" height="380" />
                         <div class="col">
                             <h2 className ="Titulo3">Quem sou eu.</h2>
-                            <h3 class="col-sm-3" id="Divisor2">♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦</h3>
+                            <h3 class="col-xm-3" id="Divisor2">♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦</h3>
                             <p className="texto-quem-sou">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas 
                                 sed fringilla augue, sit amet rutrum ex. Nullam vitae eleifend quam. 
