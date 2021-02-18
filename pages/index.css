@@ -71,10 +71,17 @@ h2{
   }
   #Divisor2{
       color: #54595f;
-      font-size: 100%;
+      font-size: 20px;
       margin-top: 20px;
   }
 
+  @media (max-width: 460px){
+    #Divisor2{
+        color: #54595f;
+        font-size:  15px;
+        margin-top: 20px;
+    }
+  }
 
   .texto-quem-sou{
       margin-top: 30px;
