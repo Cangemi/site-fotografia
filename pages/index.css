@@ -67,3 +67,18 @@ h2{
   #section-1{
       background-color: #fff;
   }
+  .Divisor2{
+      color: #54595f;
+      font-size: 20px;
+      margin-top: 20px;
+  }
+
+
+  .texto-quem-sou{
+      margin-top: 30px;
+      font-size: 15px;
+      line-height: 28px;
+      font-weight:lighter;
+      font-family: 'Poppins', sans-serif;
+      color: #040404;
+  }
