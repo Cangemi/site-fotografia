@@ -19,7 +19,6 @@
   "homepage": "https://github.com/Cangemi/site-fotografia#readme",
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "get-google-fonts": "^1.2.2",
     "next": "^10.0.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

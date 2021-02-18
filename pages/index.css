@@ -6,6 +6,7 @@
     color: #fff;
     margin-bottom: 0;
     padding-bottom: 0px;
+    overflow: hidden;
 
 }
 h2{
@@ -56,18 +57,19 @@ h2{
     
 }
 
-.divisorForma {
+#divisorForma {
     width:0;
     height: 0;
     margin-top: -30px;
     position: relative;
     border-bottom: 30px solid #37F2C0;
-    border-right: 1348px solid transparent;
+    border-right: 98vmax solid transparent;
   }
   #section-1{
       background-color: #fff;
+      overflow: hidden;
   }
-  .Divisor2{
+  #Divisor2{
       color: #54595f;
       font-size: 20px;
       margin-top: 20px;

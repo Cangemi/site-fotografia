@@ -20,7 +20,6 @@ function Home() {
                 <meta name='author' content='Pedro Cangemi' />
                 <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"></link>
-                <link rel="stylesheet" href="all.css" type="text/css" media="all"></link>
             </Head>
             <Navbar />
             <Jumbotron fluid id="header">
@@ -31,13 +30,13 @@ function Home() {
                             <h3 className="Divisor">▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀</h3>
                             <h2 className="Titulo2" >Eternizamos emoções</h2>
                             <div className="BtnHead">
-                                <button className="BtnHead2" href="/">Orçamento</button>
+                            <button className="BtnHead2" href="/">Orçamento</button>
                             </div>
                         </div>
                         <Image class="col" src="/header.png" width="620" height="480" />
                     </div>
                 </Container>
-                <div className="divisorForma"></div>
+                <div fluid id="divisorForma"></div> 
             </Jumbotron>
             <Jumbotron fluid id="section-1">
                 <Container>
@@ -45,7 +44,7 @@ function Home() {
                         <Image class="col" src="/quemsoueu.png" width="580" height="380" />
                         <div class="col">
                             <h2 className ="Titulo3">Quem sou eu.</h2>
-                            <h3 className="Divisor2">♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦</h3>
+                            <h3 class="col-sm-3" id="Divisor2">♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦</h3>
                             <p className="texto-quem-sou">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas 
                                 sed fringilla augue, sit amet rutrum ex. Nullam vitae eleifend quam. 
@@ -60,9 +59,7 @@ function Home() {
                         </div>
                     </div>
                 </Container>
-
             </Jumbotron>
-
         </div>
     )
 }
