@@ -23,12 +23,12 @@ function Home() {
 
             </Head>
             <Navbar />
-            <Jumbotron fluid id="Cabecalho">
+            <Jumbotron fluid id="header">
                 <Container >
                     <div class="row">
                         <div class="col">
                             <h1 className="Titulo1">Não registramos <br />apenas momentos.</h1>
-                            <h2 className="Divisor">▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀</h2>
+                            <h3 className="Divisor">▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀</h3>
                             <h2 className="Titulo2" >Eternizamos emoções</h2>
                             <div  className="BtnHead">
                              <button className="BtnHead2" href="/">Orçamento</button>
@@ -38,6 +38,17 @@ function Home() {
                     </div>
                 </Container>
                     <div className="divisorForma"></div>
+            </Jumbotron>
+            <Jumbotron id="section-1">
+                <Container>
+                    <div class="row">
+                        <Image class="col" src="/quemsoueu.png" width="580" height="380" />
+                        <div class="col">
+                            <h2>Quem sou eu.</h2>
+                        </div>
+                    </div>
+                </Container>
+
             </Jumbotron>
 
         </div>

@@ -1,11 +1,17 @@
 
 
-#Cabecalho{
+#header{
+    margin-top: -20px;
     background-color: #040404;
     color: #fff;
     margin-bottom: 0;
     padding-bottom: 0px;
 
+}
+h2{
+    font-family:'Chau Philomene One', sans-serif;
+    font-size: 48px !important;
+    color: #040404;
 }
 .Titulo1{
     font-family:'Chau Philomene One', sans-serif;
@@ -13,7 +19,11 @@
     margin-top: 80px;
     font-size: 48px;
 }
-
+.Titulo2{
+    text-align: center;
+    color:#37F2C0;
+    
+}
 .Divisor{
     text-align: center;
     font-weight:900;
@@ -22,14 +32,6 @@
     color:#37F2C0;
     letter-spacing: 2px;
     margin-top: 20px;
-    
-}
-
-.Titulo2{
-    font-family:'Chau Philomene One', sans-serif;
-    text-align: center;
-    font-size: 48px;
-    color:#37F2C0;
     
 }
 
@@ -61,4 +63,7 @@
     position: relative;
     border-bottom: 30px solid #37F2C0;
     border-right: 98vmax solid transparent;
+  }
+  #section-1{
+      background-color: #fff;
   }
