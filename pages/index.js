@@ -20,7 +20,7 @@ function Home() {
                 <meta name='author' content='Pedro Cangemi' />
                 <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"></link>
-
+                <link rel="stylesheet" href="all.css" type="text/css" media="all"></link>
             </Head>
             <Navbar />
             <Jumbotron fluid id="header">
@@ -39,7 +39,7 @@ function Home() {
                 </Container>
                 <div className="divisorForma"></div>
             </Jumbotron>
-            <Jumbotron id="section-1">
+            <Jumbotron fluid id="section-1">
                 <Container>
                     <div class="row">
                         <Image class="col" src="/quemsoueu.png" width="580" height="380" />
