@@ -8,6 +8,7 @@ import Navbar from '../components/Navbar';
 import { Jumbotron, Container } from 'reactstrap'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaBeer } from 'react-icons/fa';
 
 
 function Home() {
@@ -57,6 +58,16 @@ function Home() {
                                 lacus vitae mi maximus egestas.
                             </p>
                         </div>
+                    </div>
+                </Container>
+            </Jumbotron>
+            <Jumbotron fluid id="section-2">
+                <Container>
+                    <div class="row">
+                        <div class="col tela"><FaBeer /></div>
+                        <div class="col tela"><FaBeer /></div>
+                        <div class="col tela"><FaBeer /></div>
+                        <div class="col tela"><FaBeer /></div>
                     </div>
                 </Container>
             </Jumbotron>
