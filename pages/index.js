@@ -28,7 +28,7 @@ function Home() {
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"></link>
             </Head>
             <Navbar />
-            <Jumbotron fluid id="header">
+            <Jumbotron fluid="true" id="header">
                 <Container >
                     <div className="row">
                         <div className="col">
@@ -42,13 +42,13 @@ function Home() {
                         <Image className="col" src="/header.png" width="620" height="480" />
                     </div>
                 </Container>
-                <div fluid id="divisorForma"></div>
+                <div fluid="true"  id="divisorForma"></div>
             </Jumbotron>
-            <Jumbotron fluid id="section-1">
+            <Jumbotron fluid="true"  id="section-1">
                 <Container>
-                    <div class="row">
+                    <div className="row">
                         <Image className="col" src="/quemsoueu.png" width="580" height="380" />
-                        <div class="col">
+                        <div className="col">
                             <h2 className="Titulo3">Quem sou eu.</h2>
                             <h3 id="Divisor2">◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊</h3>
                             <p className="texto-quem-sou">
@@ -66,8 +66,8 @@ function Home() {
                     </div>
                 </Container>
             </Jumbotron>
-            <Jumbotron fluid id="section-2">
-                <div fluid id="divisorForma2"></div>
+            <Jumbotron fluid="true"  id="section-2">
+                <div fluid="true"  id="divisorForma2"></div>
                 <Container>
                     <div className="row">
                         <div className="col">
@@ -107,7 +107,7 @@ function Home() {
                 </Container>
             </Jumbotron>
             <div className="col-12 divisorCentralizar">
-             <div fluid id="divisorForma3"></div>
+             <div fluid="true"  id="divisorForma3"></div>
             </div>
         </div>
     )
