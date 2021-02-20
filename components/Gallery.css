@@ -1,16 +1,9 @@
 .portfolio{
     margin-top: 30px;
-    padding: 0px 200px;
+    
 }
 
 
 .port{
     margin-right: -25px;
-}
-
-@media (max-width: 915px){
-    .portfolio{
-        
-        padding: 0px;
-    }  
 }
