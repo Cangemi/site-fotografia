@@ -106,6 +106,9 @@ function Home() {
                     </div>
                 </Container>
             </Jumbotron>
+            <div className="col-12 divisorCentralizar">
+             <div fluid id="divisorForma3"></div>
+            </div>
         </div>
     )
 }
