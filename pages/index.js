@@ -5,6 +5,8 @@ import Image from 'next/image';
 
 import Navbar from '../components/Navbar';
 
+import Gallery from '../components/Gallery';
+
 import { Jumbotron, Container } from 'reactstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,7 +30,7 @@ function Home() {
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"></link>
             </Head>
             <Navbar />
-            <Jumbotron fluid="true" id="header">
+            <Jumbotron fluid id="header">
                 <Container >
                     <div className="row">
                         <div className="col">
@@ -42,9 +44,9 @@ function Home() {
                         <Image className="col" src="/header.png" width="620" height="480" />
                     </div>
                 </Container>
-                <div fluid="true"  id="divisorForma"></div>
+                <div fluid id="divisorForma"></div>
             </Jumbotron>
-            <Jumbotron fluid="true"  id="section-1">
+            <Jumbotron fluid id="section-1">
                 <Container>
                     <div className="row">
                         <Image className="col" src="/quemsoueu.png" width="580" height="380" />
@@ -66,8 +68,8 @@ function Home() {
                     </div>
                 </Container>
             </Jumbotron>
-            <Jumbotron fluid="true"  id="section-2">
-                <div fluid="true"  id="divisorForma2"></div>
+            <Jumbotron fluid id="section-2">
+                <div fluid id="divisorForma2"></div>
                 <Container>
                     <div className="row">
                         <div className="col">
@@ -107,8 +109,14 @@ function Home() {
                 </Container>
             </Jumbotron>
             <div className="col-12 divisorCentralizar">
-             <div fluid="true"  id="divisorForma3"></div>
+                <div fluid id="divisorForma3"></div>
             </div>
+            <Jumbotron fluid id="section-3">
+                <Container>
+                    <h2>Portfólio</h2>
+                        <Gallery />
+                </Container>
+            </Jumbotron>
         </div>
     )
 }
