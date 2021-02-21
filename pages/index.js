@@ -7,6 +7,8 @@ import Navbar from '../components/Navbar';
 
 import Gallery from '../components/Gallery';
 
+import Contador from '../components/Contador';
+
 import { Jumbotron, Container } from 'reactstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -119,6 +121,16 @@ function Home() {
                         <button className="BtnPort" href="/">Ver ensaios completos</button>
                         </div>
                 </Container>
+            </Jumbotron>
+            <Jumbotron id="section-4">
+                
+                    <Container>
+                        <div>
+                            <Contador/>
+                        </div>
+                    </Container>                    
+                
+
             </Jumbotron>
         </div>
     )
