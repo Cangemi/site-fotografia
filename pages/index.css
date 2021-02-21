@@ -118,7 +118,7 @@ h2{
   .centralizar{
     margin: 40px auto !important;
     float: none !important;
-    color: #37F2C0;;
+    color: #37F2C0;
     width: 55px;
     height: 55px;
 }
@@ -167,10 +167,16 @@ h2{
 
   #section-4{
       background: url("/man_and_woman_kissin.jpg") no-repeat center fixed;
-      filter: brightness(35%) ;
+      filter: brightness(35%);
       background-size: 100%;
       padding: 250px;
       overflow: hidden;
+  }
+  
+  .number{
+    color: #37F2C0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
   }
 
 

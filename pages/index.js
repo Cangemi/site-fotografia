@@ -7,11 +7,12 @@ import Navbar from '../components/Navbar';
 
 import Gallery from '../components/Gallery';
 
-import Contador from '../components/Contador';
+import NumberCounter from 'number-counter';
 
 import { Jumbotron, Container } from 'reactstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,6 +31,7 @@ function Home() {
                 <meta name='author' content='Pedro Cangemi' />
                 <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"></link>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet"></link>
             </Head>
             <Navbar />
             <Jumbotron fluid id="header">
@@ -116,20 +118,29 @@ function Home() {
             <Jumbotron fluid id="section-3">
                 <Container>
                     <h2>Portfólio</h2>
-                        <Gallery />
-                        <div className="BtnHead">
+                    <Gallery />
+                    <div className="BtnHead">
                         <button className="BtnPort" href="/">Ver ensaios completos</button>
-                        </div>
+                    </div>
                 </Container>
             </Jumbotron>
             <Jumbotron id="section-4">
-                
-                    <Container>
-                        <div>
-                            <Contador/>
+
+                <Container>
+                    <div className="row">
+                        <div className="col">
+                            <NumberCounter className="number" end={100} delay={4} />
                         </div>
-                    </Container>                    
-                
+                        <div className="col">
+                            <NumberCounter className="number" end={100} delay={4} />
+                        </div>
+                        <div className="col">
+                            <NumberCounter className="number" end={100} delay={4} />
+                        </div>
+
+                    </div>
+                </Container>
+
 
             </Jumbotron>
         </div>

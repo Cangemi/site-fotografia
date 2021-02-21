@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 
 const numbers = [43,
     32,
     50000
 ]
+const numero = 0;
 
 export default function Contador() {
+    
     const [contador, setContador] = useState(0);
 
 
@@ -17,4 +19,4 @@ export default function Contador() {
             </div>
         </div>
     )
-}
+}*/
