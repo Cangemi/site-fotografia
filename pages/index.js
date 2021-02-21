@@ -141,8 +141,23 @@ function Home() {
                         </div>
                     </div>
                 </Container>
-
-
+            </Jumbotron>
+            <Jumbotron fluid id="section-5">
+                <Container>
+                        <h2>Nosso Trabalho</h2>
+                    <div className= "row bigBox">
+                        <div className ="col">
+                            <ul className="fa-ul">
+                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>Temos uma equipe dedicada e programada para atender as suas necessidades</li>
+                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>Agendamos um horário para conhecer nossos clientes pessoalmente</li>
+                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>Entregamos tudo dentro do prazo que definimos com a menos brevidade possível</li>
+                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>Um dos melhores preços do mercado sem deixar de lado qualidade e dedicação</li>
+                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>O pagamento pode ser parcelado</li>
+                            </ul>
+                        </div>
+                        <Image className="col nossoTrabalho" src="/toddler.jpg" width="550" height="350"/>
+                    </div>
+                </Container>
             </Jumbotron>
         </div>
     )

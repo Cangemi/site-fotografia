@@ -179,11 +179,50 @@ h2{
     font-family: 'Roboto', sans-serif;
     font-size: 65px;
   }
+
   .counterName{
       color: #fff;
       font-size: 20px;
       font-family: 'Roboto', sans-serif;
   }
+
+  #section-5{
+      background-color: #fff;
+      text-align: center;
+  }
+
+  .bigBox{
+      padding: 50px;
+      box-shadow: 0px 0px 20px 0px #0404046b;
+      border-radius: 5px;
+      margin-top: 20px;
+  }
+
+  li{
+      list-style: none;
+      text-align: start;
+      font-family: 'Roboto', sans-serif;
+      color: #040404;
+      font-weight: 500;
+      margin-top: 40px;
+  }
+
+  .iconCheck{
+      width: 30px;
+      height: 30px;
+      color: #37F2C0;
+      margin-right: 20px;
+      margin-top: -10px;
+  }
+  .nossoTrabalho{
+      border-radius: 10px;
+      filter: opacity(40%);
+  }
+  .nossoTrabalho:hover{
+    filter: opacity(100%);
+    transform: scale(0.85);
+    transition-duration: 1s;
+}
 
 
  /*-----------------------mobile-----------------------------------------------------------*/
@@ -217,5 +256,9 @@ h2{
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
         border-top: 20px solid #040404;
+    }
+    #section-4{
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
   }
