@@ -115,6 +115,9 @@ function Home() {
                 <Container>
                     <h2>Portfólio</h2>
                         <Gallery />
+                        <div className="BtnHead">
+                        <button className="BtnPort" href="/">Ver ensaios completos</button>
+                        </div>
                 </Container>
             </Jumbotron>
         </div>

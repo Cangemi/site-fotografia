@@ -33,30 +33,30 @@ export default class Gallery extends Component {
                 <div className="portfolio">
                     <div className="row">
                         <div className="col-sm port" >
-                            <Image src="/man_and_woman_kissin.jpg" width="max-content" height="max-content" onClick={() => this.setState({ photoIndex: 0, isOpen: true })} />
+                            <Image src="/man_and_woman_kissin.jpg" width="250px" height="210px" onClick={() => this.setState({ photoIndex: 0, isOpen: true })} />
                         </div>
                         <div className="col-sm port">
-                            <Image src="/groom_and_bride_kiss.jpg" width="max-content" height="max-content" onClick={() => this.setState({ photoIndex: 1, isOpen: true })} />
+                            <Image src="/groom_and_bride_kiss.jpg" width="250px" height="210px" onClick={() => this.setState({ photoIndex: 1, isOpen: true })} />
                         </div>
                         <div className="col-sm port">
-                            <Image src="/close.jpg" width="max-content" height="max-content" onClick={() => this.setState({ photoIndex: 2, isOpen: true })} />
+                            <Image src="/close.jpg" width="250px" height="210px" onClick={() => this.setState({ photoIndex: 2, isOpen: true })} />
                         </div>
                         <div className="col-sm port">
-                            <Image src="/baby_wearing.jpg" width="max-content" height="max-content" onClick={() => this.setState({ photoIndex: 3, isOpen: true })} />
+                            <Image src="/baby_wearing.jpg" width="250px" height="210px" onClick={() => this.setState({ photoIndex: 3, isOpen: true })} />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm port">
-                            <Image src="/baby_sleeping.jpg" width="max-content" height="max-content" onClick={() => this.setState({ photoIndex: 4, isOpen: true })} />
+                            <Image src="/baby_sleeping.jpg" width="250px" height="210px" onClick={() => this.setState({ photoIndex: 4, isOpen: true })} />
                         </div>
                         <div className="col-sm port">
-                            <Image src="/adorable_baby.jpg" width="max-content" height="max-content" onClick={() => this.setState({ photoIndex: 5, isOpen: true })} />
+                            <Image src="/adorable_baby.jpg" width="250px" height="210px" onClick={() => this.setState({ photoIndex: 5, isOpen: true })} />
                         </div>
                         <div className="col-sm port">
-                            <Image src="/man_and_woman_standi.jpg" width="max-content" height="max-content" onClick={() => this.setState({ photoIndex: 6, isOpen: true })} />
+                            <Image src="/man_and_woman_standi.jpg" width="250px" height="210px" onClick={() => this.setState({ photoIndex: 6, isOpen: true })} />
                         </div>
                         <div className="col-sm port">
-                            <Image src="/adolescence.jpg" width="max-content" height="max-content" onClick={() => this.setState({ photoIndex: 7, isOpen: true })} />
+                            <Image src="/adolescence.jpg" width="250px" height="210px" onClick={() => this.setState({ photoIndex: 7, isOpen: true })} />
                         </div>
                     </div>
                 </div>
