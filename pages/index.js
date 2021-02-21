@@ -125,19 +125,20 @@ function Home() {
                 </Container>
             </Jumbotron>
             <Jumbotron id="section-4">
-
                 <Container>
                     <div className="row">
                         <div className="col">
-                            <NumberCounter className="number" end={100} delay={4} />
+                            <NumberCounter className="number" end={43} delay={1} />
+                            <h3 className="counterName">Clientes Satisfeitos</h3>
                         </div>
                         <div className="col">
-                            <NumberCounter className="number" end={100} delay={4} />
+                            <NumberCounter className="number" end={32} delay={1} />
+                            <h3 className="counterName">Álbuns Entregues</h3>
                         </div>
                         <div className="col">
-                            <NumberCounter className="number" end={100} delay={4} />
+                            <NumberCounter className="number" end={5000} delay={1} />
+                            <h3 className="counterName">Clicks registrados</h3>
                         </div>
-
                     </div>
                 </Container>
 

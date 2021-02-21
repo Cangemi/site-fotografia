@@ -166,17 +166,23 @@ h2{
   }
 
   #section-4{
-      background: url("/man_and_woman_kissin.jpg") no-repeat center fixed;
-      filter: brightness(35%);
-      background-size: 100%;
-      padding: 250px;
+      background:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("/man_and_woman_kissin.jpg") no-repeat center fixed;
+      background-size:cover;
+      padding-top: 200px;
+      padding-bottom: 200px;
       overflow: hidden;
+      text-align: center;
   }
-  
+
   .number{
     color: #37F2C0;
     font-family: 'Roboto', sans-serif;
     font-size: 65px;
+  }
+  .counterName{
+      color: #fff;
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
   }
 
 
