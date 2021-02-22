@@ -32,6 +32,7 @@ function Home() {
                 <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet"></link>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"></link>
             </Head>
             <Navbar />
             <Jumbotron fluid id="header">
@@ -42,7 +43,7 @@ function Home() {
                             <h3 className="Divisor">▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀</h3>
                             <h2 className="Titulo2" >Eternizamos emoções</h2>
                             <div className="BtnHead">
-                                <button className="BtnHead2" href="/">Orçamento</button>
+                                <button className="BtnHead2" href="https://site-fotografia.vercel.app/#section-7">Orçamento</button>
                             </div>
                         </div>
                         <Image className="col" src="/header.png" width="620" height="480" />
@@ -147,7 +148,7 @@ function Home() {
                     <h2>Nosso Trabalho</h2>
                     <div className="row bigBox">
                         <div className="col">
-                            <ul className="fa-ul">
+                            <ul>
                                 <li><FontAwesomeIcon className="iconCheck" icon="check" />Temos uma equipe dedicada e programada para atender as suas necessidades</li>
                                 <li><FontAwesomeIcon className="iconCheck" icon="check" />Agendamos um horário para conhecer nossos clientes pessoalmente</li>
                                 <li><FontAwesomeIcon className="iconCheck" icon="check" />Entregamos tudo dentro do prazo que definimos com a menos brevidade possível</li>
@@ -166,52 +167,110 @@ function Home() {
                     <div className="row">
                         <div className="col cardi">
                             <p className="card-text cardText">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                luctus nec ullamcorper mattis, pulvinar dapibus leo.
                             </p>
                             <ul className="row">
                                 <li>
-                                <div className="rounded-circle circulo1"></div>
+                                    <div className="rounded-circle circulo1"></div>
                                 </li>
                                 <li>
-                                <h5 class="card-title cardText">John Doe</h5>
-                                <p className="card-text cardText">Designer</p>
+                                    <h5 class="card-title cardText titulo">John Doe</h5>
+                                    <p className="card-text cardText">Designer</p>
                                 </li>
                             </ul>
                         </div>
                         <div className="col cardi">
                             <p className="card-text cardText">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                luctus nec ullamcorper mattis, pulvinar dapibus leo.
                             </p>
                             <ul className="row">
                                 <li>
-                                <div className="rounded-circle circulo2"></div>
+                                    <div className="rounded-circle circulo2"></div>
                                 </li>
                                 <li>
-                                <h5 class="card-title cardText">Greta Silva</h5>
-                                <p className="card-text cardText">Designer</p>
+                                    <h5 class="card-title cardText titulo">Greta Silva</h5>
+                                    <p className="card-text cardText">Designer</p>
                                 </li>
                             </ul>
                         </div>
                         <div className="col cardi">
                             <p className="card-text cardText">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                luctus nec ullamcorper mattis, pulvinar dapibus leo.
                             </p>
                             <ul className="row">
                                 <li>
-                                <div className="rounded-circle circulo3"></div>
+                                    <div className="rounded-circle circulo3"></div>
                                 </li>
                                 <li>
-                                <h5 class="card-title cardText">Joana Lana</h5>
-                                <p className="card-text cardText">Designer</p>
+                                    <h5 class="card-title cardText titulo">Joana Lana</h5>
+                                    <p className="card-text cardText">Designer</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </Container>
                 <div className="divisorForma5"></div>
+            </Jumbotron>
+            <Jumbotron fluid id="section-7">
+                
+                <Container>
+                    <h2 className="tituloSection7">Pacotes de cobertura</h2>
+                    <div className="row">
+                        <div className="col cartao">
+                            <h3 className="tituloCartao">Pacote 1</h3>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Cobertura por 1 fotografo</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />2 horas de Ensaio/Cobertura</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Todas as fotos editadas</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Prazo de entrega de 72 horas</p>
+                            <h3 className="preco">R$ 340</h3>
+                            <button className="BtnCartao" href="/">Tenho interesse</button>
+                        </div>
+                        <div className="col cartao">
+                            <h3 className="tituloCartao">Pacote 2</h3>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Cobertura por 1 fotografo</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />2 horas de Ensaio/Cobertura</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Todas as fotos editadas</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Prazo de entrega de 72 horas</p>
+                            <h3 className="preco">R$ 620</h3>
+                            <button className="BtnCartao" href="/">Tenho interesse</button>
+                        </div>
+                        <div className="col cartao">
+                            <h3 className="tituloCartao">Pacote 3</h3>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Cobertura por 1 fotografo</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />2 horas de Ensaio/Cobertura</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Todas as fotos editadas</p>
+                            <p className="textoCartao"><FontAwesomeIcon className="iconCheck2" icon="check" />Prazo de entrega de 72 horas</p>
+                            <h3 className="preco">R$ 1520</h3>
+                            <button className="BtnCartao" href="/">Tenho interesse</button>
+                        </div>
+                    </div>
+                    <button className="BtnPort" href="/">Pacote Personalizado</button>
+                </Container>
+            </Jumbotron>
+            <Jumbotron fluid id="footer">
+            <div className="divisorForma6"></div>
+                <Container>
+                    <div className="row">
+                        <div className="col">
+                         <p className="txtRedes"><i class="far fa-envelope iconRede"></i>pedrocangemi@gmail.com</p>
+                        </div>
+                        <div className="col">
+                         <p className="txtRedes"><i class="fab fa-whatsapp iconRede"></i>(16) 981777171</p>
+                        </div>
+                        <div className="col">
+                         <p className="txtRedes"><i class="fas fa-map-marker-alt iconRede"></i>Rua dos Alfeneiros, 212</p>
+                        </div>
+                    </div>
+                    <div >
+                       <i className="fab fa-facebook Redes"></i>
+                       <i className="fab fa-twitter Redes"></i>
+                       <i className="fab fa-youtube Redes"></i>
+                    </div>
+                    <p className="txtRedes">Desenvolvido por: Pedro Cangemi</p>
+                </Container>
             </Jumbotron>
         </div>
     )
