@@ -253,16 +253,10 @@ function Home() {
             <Jumbotron fluid id="footer">
             <div className="divisorForma6"></div>
                 <Container>
-                    <div className="row">
-                        <div className="col">
+                    <div>
                          <p className="txtRedes"><i class="far fa-envelope iconRede"></i>pedrocangemi@gmail.com</p>
-                        </div>
-                        <div className="col">
                          <p className="txtRedes"><i class="fab fa-whatsapp iconRede"></i>(16) 981777171</p>
-                        </div>
-                        <div className="col">
                          <p className="txtRedes"><i class="fas fa-map-marker-alt iconRede"></i>Rua dos Alfeneiros, 212</p>
-                        </div>
                     </div>
                     <div >
                        <i className="fab fa-facebook Redes"></i>
