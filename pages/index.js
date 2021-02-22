@@ -136,7 +136,7 @@ function Home() {
                             <h3 className="counterName">Álbuns Entregues</h3>
                         </div>
                         <div className="col">
-                            <NumberCounter className="number" end={5000} delay={1} />
+                            <NumberCounter className="number" start={49000} end={50000} delay={1} />
                             <h3 className="counterName">Clicks registrados</h3>
                         </div>
                     </div>
@@ -144,20 +144,74 @@ function Home() {
             </Jumbotron>
             <Jumbotron fluid id="section-5">
                 <Container>
-                        <h2>Nosso Trabalho</h2>
-                    <div className= "row bigBox">
-                        <div className ="col">
+                    <h2>Nosso Trabalho</h2>
+                    <div className="row bigBox">
+                        <div className="col">
                             <ul className="fa-ul">
-                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>Temos uma equipe dedicada e programada para atender as suas necessidades</li>
-                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>Agendamos um horário para conhecer nossos clientes pessoalmente</li>
-                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>Entregamos tudo dentro do prazo que definimos com a menos brevidade possível</li>
-                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>Um dos melhores preços do mercado sem deixar de lado qualidade e dedicação</li>
-                            <li><FontAwesomeIcon className="iconCheck" icon="check"/>O pagamento pode ser parcelado</li>
+                                <li><FontAwesomeIcon className="iconCheck" icon="check" />Temos uma equipe dedicada e programada para atender as suas necessidades</li>
+                                <li><FontAwesomeIcon className="iconCheck" icon="check" />Agendamos um horário para conhecer nossos clientes pessoalmente</li>
+                                <li><FontAwesomeIcon className="iconCheck" icon="check" />Entregamos tudo dentro do prazo que definimos com a menos brevidade possível</li>
+                                <li><FontAwesomeIcon className="iconCheck" icon="check" />Um dos melhores preços do mercado sem deixar de lado qualidade e dedicação</li>
+                                <li><FontAwesomeIcon className="iconCheck" icon="check" />O pagamento pode ser parcelado</li>
                             </ul>
                         </div>
-                        <Image className="col nossoTrabalho" src="/toddler.jpg" width="550" height="350"/>
+                        <Image className="col nossoTrabalho" src="/toddler.jpg" width="550" height="350" />
                     </div>
                 </Container>
+            </Jumbotron>
+            <Jumbotron fluid id="section-6">
+                <div className="divisorForma4"></div>
+                <Container>
+                    <h2>Nossos Clientes</h2>
+                    <div className="row">
+                        <div className="col cardi">
+                            <p className="card-text cardText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
+                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                            <ul className="row">
+                                <li>
+                                <div className="rounded-circle circulo1"></div>
+                                </li>
+                                <li>
+                                <h5 class="card-title cardText">John Doe</h5>
+                                <p className="card-text cardText">Designer</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col cardi">
+                            <p className="card-text cardText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
+                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                            <ul className="row">
+                                <li>
+                                <div className="rounded-circle circulo2"></div>
+                                </li>
+                                <li>
+                                <h5 class="card-title cardText">Greta Silva</h5>
+                                <p className="card-text cardText">Designer</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col cardi">
+                            <p className="card-text cardText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
+                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                            <ul className="row">
+                                <li>
+                                <div className="rounded-circle circulo3"></div>
+                                </li>
+                                <li>
+                                <h5 class="card-title cardText">Joana Lana</h5>
+                                <p className="card-text cardText">Designer</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </Container>
+                <div className="divisorForma5"></div>
             </Jumbotron>
         </div>
     )
